@@ -6,7 +6,9 @@
 /* html{
     margin-top: -27px;
 } */
-
+ /* main{
+    background-image: url('assets/img/ProfilePhoto.jpg'); 
+ } */
 
 /* Navigation Bar Fixed */
 .side-nav{
@@ -84,6 +86,7 @@ nav i {
 .main{
     margin-left: 200px;
     background-color: azure;
+    background: url(../../assets/img/bg.png) repeat; 
     height: 100%;
     padding-top: -27px;
     /* margin-top: -27px; */
@@ -146,6 +149,11 @@ nav i {
     position: relative;
     display: block;
     min-height: 100vh;
+    /* background-color: bisque; */
+    /* background-image: url("assets/img/Profilephoto.jpg"); */
+    /* background-image: url("img_tree.gif"), url("paper.gif"); */
+    /* background-repeat: repeat; */
+    
 }
 .page-title{
     position: relative;
@@ -158,6 +166,19 @@ nav i {
     font-weight: 100;
 }
 
+.container-section{
+    
+    margin: 50px;
+}
+.section-content{
+    padding-left: 5%;
+    padding-right: 5%;
+    align-content: space-between;
+    font-size: 23px;
+}
+/* .section-content p{
+    font-size: 20px;
+} */
 
 
 
